@@ -1,0 +1,5 @@
+# Auto-memory (personal agents)
+.claude/agent-memory-local/
+
+# Auto-memory (project)
+memory/
