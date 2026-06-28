@@ -21,12 +21,16 @@ This template supports multiple languages. Each language has its own agent pipel
 ├── setup.md                                   ← orchestrator: runs full setup
 ├── user-setup.md                              ← English personal context setup
 ├── user-setup.pt-br.md                        ← Portuguese (Brazil) personal context setup
+├── user-setup.ar.md                           ← Arabic personal context setup
 ├── ig-creator-agent-template.md               ← English template
 ├── ig-setup.md                                ← English setup → generates ig-creator-agent.md
 ├── ig-creator-agent-template.pt-br.md         ← Portuguese (Brazil) template
 ├── ig-setup.pt-br.md                          ← Portuguese (Brazil) setup → generates ig-creator-agent.pt-br.md
+├── ig-creator-agent-template.ar.md            ← Arabic template (Fus'ha + dialect support)
+├── ig-setup.ar.md                             ← Arabic setup → generates ig-creator-agent.ar.md
 ├── ig-creator-agent.md                        ← generated (English)
-└── ig-creator-agent.pt-br.md                  ← generated (Portuguese)
+├── ig-creator-agent.pt-br.md                  ← generated (Portuguese)
+└── ig-creator-agent.ar.md                     ← generated (Arabic)
 ```
 
 ### Choosing a Language
@@ -34,16 +38,21 @@ This template supports multiple languages. Each language has its own agent pipel
 To create content in a specific language:
 - **English:** `claude --agent ig-creator` → uses `ig-creator-agent.md`
 - **Portuguese:** `claude --agent ig-creator-pt-br` → uses `ig-creator-agent.pt-br.md`
+- **Arabic:** `claude --agent ig-creator-ar` → uses `ig-creator-agent.ar.md`
 
 ### Setup Process
 
 Run `/setup` once — it will ask for your language preference, then configure everything:
-1. Ask language choice (English or Portuguese)
-2. Run `/user-setup` → fills in `user.md` with your personal context
-3. Run `/ig-setup` (English) or `/ig-setup-pt-br` (Portuguese) → generates your agent profile
-4. Ready to create content with `claude --agent ig-creator`
+1. Ask language choice (English, Portuguese, or Arabic)
+2. Run the matching `/user-setup` variant → fills in `user.md` with your personal context
+3. Run the matching `/ig-setup` variant → generates your agent profile
+4. Ready to create content with the matching `claude --agent` command
 
-The `user.md` file is shared across both languages. Your personal context (background, hobbies, professional info) is language-agnostic and used by both agents.
+The `user.md` file is shared across all languages. Your personal context (background, hobbies, professional info) is language-agnostic and used by all agents.
+
+### Arabic Dialect Support
+
+The Arabic pipeline supports multiple dialects — Modern Standard Arabic (الفصحى), Iraqi (العراقية), Gulf (الخليجية), Egyptian (المصرية), and others. The dialect is configured during `/ig-setup-ar` and stored in the agent profile, so all generated content will automatically match your chosen dialect.
 
 ## Repository Structure
 

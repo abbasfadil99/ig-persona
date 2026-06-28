@@ -31,6 +31,7 @@ claude
 # 5. Create content daily
 claude --agent ig-creator          # English
 claude --agent ig-creator-pt-br    # Portuguese
+claude --agent ig-creator-ar       # Arabic (Fus'ha / Iraqi / Gulf / Egyptian)
 ```
 
 Setup will ask for your language preference, then guide you through filling in [`user.md`](user.md) and configuring your creator agent.
@@ -39,7 +40,9 @@ Setup will ask for your language preference, then guide you through filling in [
 
 ## Language Support
 
-This template supports **English** and **Portuguese (Brazil)**. Each language has its own agent setup pipeline.
+This template supports **English**, **Portuguese (Brazil)**, and **Arabic**. Each language has its own agent setup pipeline.
+
+Arabic support includes dialect configuration: Modern Standard Arabic (الفصحى), Iraqi (العراقية), Gulf (الخليجية), Egyptian (المصرية), and others — selected during setup.
 
 ---
 
