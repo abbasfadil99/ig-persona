@@ -7,38 +7,37 @@ This file is a mandatory reference before generating any content. It contains pe
 
 ## Personal
 
-- **Name:** [YOUR_NAME] (how you want to be called in content)
-- **Age:** [YOUR_AGE] (optional — helps with relatable references)
-- **From:** [YOUR_HOMETOWN] (optional)
-- **Current location:** [YOUR_CURRENT_LOCATION] (optional — relevant for local cultural references)
-- **Background story:** [ANYTHING_RELEVANT_ABOUT_HOW_YOU_GOT_HERE] (optional — adds authenticity)
-- **Living with:** [PARTNER_FAMILY_ALONE] (optional)
+- **Name:** عباس فاضل
+- **Age:** 27
+- **From:** العراق، البصرة
+- **Current location:** العراق، البصرة
+- **Background story:** منجذب للتقنية بشكل عام، ووجد في الذكاء الاصطناعي الإجابة لاهتمامه بتعدد مصادر الدخل، الأتمتة، والجودة في العمل
 
 ---
 
 ## Hobbies & Interests (beyond your niche)
 
-<!-- These help the AI make relatable analogies and humanize your content -->
-- [HOBBY_OR_INTEREST_1]
-- [HOBBY_OR_INTEREST_2]
-- [HOBBY_OR_INTEREST_3]
+- الكهرباء الصناعية ودمج الذكاء الاصطناعي فيها
+- البرمجة
+- أدوات الذكاء الاصطناعي
+- الأعمال التي تدر دخلاً سلبياً أو أرباحاً بسهولة
+- الأتمتة
 
 ---
 
 ## Professional
 
-- **Current status:** [WHAT_YOU_DO_NOW] (optional — e.g., "full-time engineer", "freelancer", "building in public")
+- **Current status:** يعمل في الكهرباء الصناعية كمهنة أساسية، ويبني Prompt Frame كمشروع جانبي لتوليد دخل ثانوي من البرومبتات والمحتوى المتخصص في الذكاء الاصطناعي
 
 ---
 
 ## Life Context
 
-<!-- Add anything that gives color to your story and might come up naturally in content -->
-- [ANY_RELEVANT_LIFE_CONTEXT] (e.g., "recently moved abroad", "career transition", "building a side project")
+- يشغّل قناة Prompt Frame (@promptframeai) عبر إنستغرام، تيك توك، يوتيوب، وتيليجرام — تنشر برومبتات مجانية ومدفوعة لصناعة الصور والذكاء الاصطناعي
 
 ---
 
 ## Content Limits
 
-- **Avoid:** [TOPICS_OR_ANGLES_TO_AVOID] (e.g., very divisive political takes, brand call-outs)
-- **General tone:** [DESIRED_VIBE] (e.g., authentic and relaxed, no forced positivity, no cringe selling)
+- **Avoid:** المواضيع الجنسية واللاأخلاقية
+- **General tone:** عفوي، مريح، فضولي، بدون بيع مكشوف
